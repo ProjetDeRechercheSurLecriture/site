@@ -18,9 +18,10 @@
 		<?php wp_nav_menu( array( 'theme_location' => 'footer-menu', 'depth'=>'1') ); ?>
 		</nav>
 		<div class="site-info">
-			<?php do_action( 'pepbiz_credits' ); ?>
+			<?php echo qtrans_generateLanguageSelectCode('both'); ?>
+			<!-- <?php do_action( 'pepbiz_credits' ); ?>
 			<?php _e('Powered by', 'pepbiz'); ?> <a href="//wordpress.org" title="WordPress" target="_blank"><?php _e('WordPress', 'pepbiz'); ?></a> &amp;
-			 <a href="<?php echo esc_url('http://pepthemes.com'); ?>" title="<?php _e('PepThemes', 'pepbiz'); ?>" target="_blank"><?php _e('PepThemes', 'pepbiz'); ?></a>.
+			 <a href="<?php echo esc_url('http://pepthemes.com'); ?>" title="<?php _e('PepThemes', 'pepbiz'); ?>" target="_blank"><?php _e('PepThemes', 'pepbiz'); ?></a>. -->
 	
 		</div><!-- .site-info -->
 	</footer><!-- #colophon -->
