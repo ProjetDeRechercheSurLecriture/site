@@ -1,3 +1,19 @@
+@import url(http://fonts.googleapis.com/css?family=Permanent+Marker|Schoolbell&subset=latin,latin-ext);
+
+@font-face {
+  font-family: 'Permanent Marker';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Permanent Marker'), local('PermanentMarker'), url(http://themes.googleusercontent.com/static/fonts/permanentmarker/v3/9vYsg5VgPHKK8SXYbf3sMmVSxyvLCPm9firj_jMeQtQ.woff) format('woff');
+}
+
+@font-face {
+  font-family: 'Schoolbell';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Schoolbell'), url(http://fonts.gstatic.com/s/schoolbell/v5/BSqn7FernLolrt-MFco9WgzyDMXhdD8sAj6OAJTFsBI.woff2) format('woff2'), url(http://fonts.gstatic.com/s/schoolbell/v5/BSqn7FernLolrt-MFco9Wr3hpw3pgy2gAi-Ip7WPMi0.woff) format('woff');
+}
+
 /*
 Theme Name: PepBiz
 Theme URI: http://pepthemes.com/pepbiz/
@@ -27,7 +43,7 @@ dl, dt, dd, ol, ul, li,
 fieldset, form, label, legend,
 table, caption, tbody, tfoot, thead, tr, th, td {
 	border: 0;
-	font-family: "Trebuchet MS", Helvetica, sans-serif;
+	font-family: "Schoolbell", Helvetica, sans-serif;
 	font-size: 100%;
 	font-style: inherit;
 	font-weight: inherit;
@@ -53,7 +69,7 @@ html {
 	box-sizing:         border-box;
 }
 body {
-	background: #731823;
+	background: #0176A0;
 	font-size: 16px;
 }
 article,
@@ -86,7 +102,7 @@ a:focus {
 a:hover,
 a:active {
 	outline: 0;
-	color: rgb(224, 57, 74);
+	color: #0176A0;
 }
 a img {
 	border: 0;
@@ -166,14 +182,14 @@ dfn, cite, em, i {
 	font-style: italic;
 }
 blockquote, q {
-	border-left: 10px solid rgb(187, 43, 65);
+	border-left: 10px solid #0176A0;
   	background: #f9f9f9;
   	margin: 1.5em 10px;
   	padding: 0.5em 10px;
   	quotes: "\201C""\201D""\2018""\2019";
 }
 blockquote:before, q:before {
-  	color: rgb(187, 43, 65);
+  	color: #0176A0;
   	content: open-quote;
  	font-size: 4em;
   	line-height: 0.1em;
@@ -207,7 +223,7 @@ abbr, acronym {
 	cursor: help;
 }
 mark, ins {
-	background: #fff9c0;
+	background: #0176A0;
 	text-decoration: none;
 }
 sup,
@@ -348,8 +364,7 @@ a:visited {
 a:hover,
 a:focus,
 a:active {
-	color: midnightblue;
-	color: rgb(224, 57, 74);
+	color: #0176A0;
 }
 
 /* Alignment */
@@ -452,16 +467,16 @@ a:active {
 
 }
 .main-navigation ul li a:hover {
-
+	
 }
 .main-navigation ul li:hover > a {
-	background: url(images/nav.gif) center bottom no-repeat;
+	background: none;
 	color: #333;
 }
 
 .main-navigation ul ul {
 	box-shadow: 0 3px 3px rgba(0, 0, 0, 0.2);
-	background: #222;
+	background: rgba(0, 0, 0, 0.5);
 	display: none;
 	float: left;
 	left: 0;
@@ -478,7 +493,7 @@ a:active {
 	color: #fff;
 }
 .main-navigation ul ul li a:hover {
-	color: #e0394a;
+	color: #0176A0;
 	background: none;
 }
 .main-navigation ul ul ul li a:hover{
@@ -490,7 +505,7 @@ a:active {
 }
 .main-navigation ul ul :hover > a {
 	background: none;
-	color: #e0394a;
+	color: #0176A0;
 }
 .main-navigation ul ul a:hover {
 }
@@ -499,7 +514,7 @@ a:active {
 }
 .main-navigation .current_page_item > a,
 .main-navigation .current-menu-item > a {
-	background: url(images/nav.gif) center bottom no-repeat;
+	background: none;
 	color: #333;
 }
 
@@ -560,7 +575,7 @@ a:active {
 	.main-navigation ul li {
 		display: block;
 		float: none;
-		border-top: 1px dotted rgb(166, 43, 59);
+		border-top: 1px dotted #0176A0;
 		padding: 5px 0;
 	}
 	.main-navigation ul li a{
@@ -661,13 +676,13 @@ a:active {
 	padding: 15px;
 	background: #FBFBFB;
 	border-radius: 36px;
-	border: 15px solid rgba(169, 34, 51, 0.5);
+	border: 1px solid rgba(2,156,201, 0.5);
 	-moz-background-clip: padding;     /* Firefox 3.6 */
   	-webkit-background-clip: padding;  /* Safari 4? Chrome 6? */
  	background-clip: padding-box;      /* Firefox 4, Safari 5, Opera 10, IE 9 */
- 	-webkit-box-shadow: 0px 0px 15px 15px rgba(167, 38, 56, .40);
-	-moz-box-shadow: 0px 0px 15px 15px rgba(167, 38, 56, .40);
-	box-shadow: 0px 0px 120px 30px rgba(196, 39, 60, 0.90);*/
+ 	-webkit-box-shadow: 0px 0px 15px 15px rgba(2,156,201, .40);
+	-moz-box-shadow: 0px 0px 15px 15px rgba(2,156,201, .40);
+	box-shadow: 0px 0px 120px 30px rgba(2,156,201, 0.90);*/
 }
 .site-header{
 	margin-bottom: 0.5em;
@@ -678,7 +693,7 @@ a:active {
 }
 #site-branding h1.site-title a {
 	text-decoration: none;
-	color: #A62B3B;
+	color: #0176A0;
 	font-size: 120%;
 	text-transform: uppercase;
 	font-weight: bold;
@@ -725,8 +740,8 @@ h1.entry-title a:hover {
 	text-decoration: underline;
 }
 .entry-meta {
-	border-top: 1px dotted rgb(166, 43, 59);
-	border-bottom: 1px dotted rgb(166, 43, 59);
+	border-top: 1px dotted #0176A0;
+	border-bottom: 1px dotted #0176A0;
 	padding-left: 1em;
 }
 .entry-meta a{
@@ -844,7 +859,7 @@ object {
 .comment-content var, 
 .comment-content kbd, 
 .comment-content ins {
-	color: rgb(166, 43, 59);
+	color: #0176A0;
 }
 .comment-content a {
 	word-wrap: break-word;
@@ -855,7 +870,7 @@ h2.comments-title {
 	padding-bottom: 0.5em;
 }
 .comment article {
-	background-color: rgb(187, 43, 65);
+	background-color: #0176A0;
 	border-radius: 10px;
 	padding: 1em;
 	margin-bottom: 1em;
@@ -886,17 +901,16 @@ h2.comments-title {
 .widget {
 	padding: 0.5em 1em;
 	margin: 0 0 0.5em;
-	background: #BB2B41;
+	background: #0176A0;
 	border-radius: 10px;
-	color: #FBFBFB;
+	color: #ffffff;
 
 }
 .widget a {
-	color: #fff;
+	color: #fff !important;
 	text-decoration: none;
 }
 .widget a:hover {
-	color: #f995a3;
 }
 .widget h1 {
 	font-size: 120%;
@@ -968,7 +982,7 @@ h2.comments-title {
 	padding: 0 0.7em;
 }
 #footer-menu ul li a:hover {
-	color: rgb(249, 149, 163);
+	color: #0176A0;
 }
 .site-info {
 	font-size: 90%;
@@ -980,7 +994,7 @@ h2.comments-title {
 	color: rgb(251, 251, 251);
 }
 .site-info a:hover{
-	 color: rgb(249, 149, 163);
+	 color: #0176A0;
 }
 
 /* =Infinite Scroll
@@ -995,4 +1009,270 @@ h2.comments-title {
 /* When Infinite Scroll has reached its end we need to re-display elements that were hidden (via .neverending) before */
 .infinity-end.neverending .site-footer {
 	display: block;
+}
+
+
+
+
+/*---------------QTRANSLATE----------------- */
+.qtrans_language_chooser { list-style-type:none }
+.qtrans_language_chooser li { float:left; margin-right:3px }
+
+
+/*-------------PHOPHLO------------------- */
+
+.resultsbody {
+	background-color: #f6e6b4;
+	background-image: -moz-radial-gradient(center, ellipse cover, #f6e6b4 0%, #ed9017 100%);
+	background-image: -webkit-radial-gradient(center, ellipse cover, #f6e6b4 0%, #ed9017 100%);
+	background-image: -o-radial-gradient(center, ellipse cover, #f6e6b4 0%, #ed9017 100%);
+	background-image: -ms-radial-gradient(center, ellipse cover, #f6e6b4 0%, #ed9017 100%);
+	background-image: radial-gradient(center, ellipse cover, #f6e6b4 0%, #ed9017 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=     
+		       
+		       '#f6e6b4', endColorstr=                     '#ed9017',
+		GradientType=    
+		
+		
+		 
+		   
+		        0 );
+}
+
+.phophlobody {
+	background-color: #0176A0;
+	background-image: -moz-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image: -webkit-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image: -o-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image: -ms-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image: radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#029CC9', endColorstr='#005077', GradientType=0 );
+}
+
+.control-label {
+	font-family: 'Permanent Marker';
+	font-size: 1.6em;
+}
+
+legend {
+	font-family: 'Permanent Marker';
+	font-size: 2em;
+}
+
+a:link {color:#000099;}      /* unvisited link */
+a:visited {color:#000099;}  /* visited link */
+a:hover {color:#000099;}  /* mouse over link */
+a:active {color:#000099;}  /* selected link */
+
+a:link.backgroundlink { color: #ffffff; text-decoration: none; }
+a:visited.backgroundlink { color: #ffffff; text-decoration: none; }
+a:hover.backgroundlink { color: #ffffff; text-decoration: none; }
+a:active.backgroundlink { color: #ffffff; text-decoration: none; }
+
+
+.newuser {
+	background-color: #0176A0;
+	background-image: -moz-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image: -webkit-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image: -o-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image: -ms-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image: radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	color:white;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=     
+		       
+		       '#029CC9', endColorstr=                     '#005077',
+		GradientType=    
+		
+		
+		 
+		   
+		        0 );
+}
+
+
+.fill {
+	position: absolute;
+    right: 0;
+    left: 0;
+    bottom: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    z-index: -1;
+}
+
+.testbody {
+	background-color: #0176A0;
+	background-image: -moz-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image: -webkit-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image: -o-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image: -ms-radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	background-image: radial-gradient(center, ellipse cover, #029CC9 0%, #005077 100%);
+	color:white;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=     
+		       
+		       '#029CC9', endColorstr=                     '#005077',
+		GradientType=    
+		
+		
+		 
+		   
+		        0 );
+}
+
+.sailsbody {
+	background-color: #fff;
+	background-image: -moz-radial-gradient(center, ellipse cover, #ffffff 0%, #999999 100%);
+	background-image: -webkit-radial-gradient(center, ellipse cover, #ffffff 0%, #999999 100%);
+	background-image: -o-radial-gradient(center, ellipse cover, #ffffff 0%, #999999 100%);
+	background-image: -ms-radial-gradient(center, ellipse cover, #ffffff 0%, #999999 100%);
+	background-image: radial-gradient(center, ellipse cover, #ffffff 0%, #999999 100%);
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=     
+		       
+		       '#ffffff', endColorstr=                     '#999999',
+		GradientType=    
+		
+		
+		 
+		   
+		        0 );
+}
+
+h1,h2,h3,h4 {
+	font-family: 'Permanent Marker', cursive;
+}
+
+h4 {
+	font-size: 2em;
+}
+
+.lead {
+	font-family: 'Schoolbell', cursive;
+}
+
+.report {
+	font-family: 'Verdana';
+	font-size: 1.08em;
+}
+
+.well {
+	color: #000000;
+	background-color: rgba(255, 255, 255, 0.3);
+	font-size: 1.08em;
+}
+
+html {
+	height: 100%
+}
+
+.phophlomenu {
+	width: 100%;
+        text-align: center;
+}
+.phophlomenu img {
+        width: 100px;
+        text-align: center;
+}
+
+.participant_glimpse {
+	color: #ccc;
+	font-size: 0.7em;
+}
+
+.experimenter_glimpse {
+	color: #ccc;
+	font-size: 0.7em;
+}
+
+.child_specific_results {
+	font-family: 'Schoolbell', cursive;
+}
+
+.box {
+	border: 1px solid #E5E5E5;
+}
+
+div { /* text-align: center; */
+	
+}
+
+phophlofooter {
+	background-color: #333;
+	color: #999;
+	padding: 1em;
+}
+
+.credits p {
+	text-align: center;
+	width: 80%;
+	margin: auto;
+}
+
+phophlofooter a a:visited a:link {
+	color: #c3b381;
+	font-weight: bold;
+}
+phophlofooter a:visited {
+  color: #c3b381;
+  font-weight: bold;
+}
+phophlofooter a:link {
+  color: #c3b381;
+  font-weight: bold;
+}
+
+.gravatar {
+	height: 3em;
+}
+
+progress {
+	width: 100%;
+}
+
+.border-left {
+	border-left: 1px solid #E5E5E5;
+}
+
+.bordered {
+	border: 1px solid #E5E5E5;
+}
+
+.reinforcement { /* background-color: #ddd; */
+	height: 100%;
+}
+
+.txtUpsideDown 
+{
+  filter:  progid:DXImageTransform.Microsoft.BasicImage(rotation=2);  /* IE6,IE7 */
+  ms-filter: "progid:DXImageTransform.Microsoft.BasicImage(rotation=2)"; /* IE8 */
+  -moz-transform: rotate(-180deg);  /* FF3.5+ */
+  -o-transform: rotate(-180deg);  /* Opera 10.5 */
+  -webkit-transform: rotate(-180deg);  /* Safari 3.1+, Chrome */
+  position: absolute; 
+  
+  width:100%;
+  margin:1em;
+}
+.touch_scoreboard{
+	text-align: center;
+	 font-family: 'Schoolbell', cursive;
+	font-size:3em;
+}
+@media print {
+	.exec_summary {
+		display: none !important;
+	}
+	.navbar {
+		display: none !important;
+	}
+	.results_sidebar {
+		display: none !important;
+	}
+	.well {
+		border: 0px !important;
+		box-shadow: inset 0 0 0 0 rgba(0, 0, 0, 0.05) !important;
+	}
+	.pdfSpacer {
+		padding: 11em;
+	}
 }
