@@ -1016,6 +1016,7 @@ h2.comments-title {
 
 /*---------------QTRANSLATE----------------- */
 .qtrans_language_chooser { list-style-type:none }
+.qtrans_language_chooser a { color: #fff !important; }
 .qtrans_language_chooser li { float:left; margin-right:3px }
 
 
@@ -1275,4 +1276,8 @@ progress {
 	.pdfSpacer {
 		padding: 11em;
 	}
+}
+
+.bxslider img {
+  width: 100%;
 }
